@@ -1,0 +1,52 @@
+/* selector {
+	property: value;
+}*/
+
+body,html {
+    height: 100%;
+    width: auto;
+    margin: 0;
+}
+
+body {
+	background-image: url(spotlight.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    image-rendering: crisp-edges;
+
+
+   }
+
+   h2 {
+   font-family: 'ruslan display' serif;
+   position: absolute;
+   right: 400px; top:350px;
+   font-size: 20px;
+   	color: rgba(43, 105, 174,0.5);
+   }
+   .btn {
+   	position: absolute;
+   	right: 550px;
+   	top: 450px;
+   color: rgba(43, 105, 174,1);
+   background-color: rgba(43, 105, 174,0.4);
+
+}
+
+.btn:hover {
+	background-color: rgba(43, 105, 174,0.6);
+	 color: rgba(43, 105, 174,1);
+
+}
+
+  
+
+  
+
+   h1{
+ 	position: absolute;
+ 	right: 480px; top: 280px;
+ 	color: rgba(43, 105, 174,1);
+ }	
